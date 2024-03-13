@@ -10,7 +10,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/KANAGA-Technology-Limited/a1quest-web'
             }
         }
-    
+    // 102.88.36.223
     
         stage('Test npm') {
             steps {
