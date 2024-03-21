@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: a1quest-web
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: web
